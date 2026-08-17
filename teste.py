@@ -8,6 +8,13 @@ st.set_page_config(
     page_icon="📈",
     layout="centered"
 )
+st.markdown("""
+<style>
+    .stApp {
+        background-color: #0D47A1;
+    }
+</style>
+""", unsafe_allow_html=True)
 
 PASTA_APP = Path(__file__).parent
 
