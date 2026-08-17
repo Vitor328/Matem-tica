@@ -11,7 +11,7 @@ st.set_page_config(
 
 PASTA_APP = Path(__file__).parent
 
-CAMINHO_LOGO = PASTA_APP / "mat.jpeg"
+CAMINHO_LOGO = PASTA_APP / "WhatsApp Image 2026-08-17 at 10.24.54.jpeg"
 
 if CAMINHO_LOGO.exists():
     col1, col2, col3 = st.columns([1, 2, 1])
